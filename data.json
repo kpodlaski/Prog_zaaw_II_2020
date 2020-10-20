@@ -1,0 +1,12 @@
+{
+  "table":"A",
+  "currency":"dolar amerykański",
+  "code":"USD",
+  "rates":
+  [
+    {"no":"022/A/NBP/2020","effectiveDate":"2020-02-03","mid":3.8864},
+    {"no":"023/A/NBP/2020","effectiveDate":"2020-02-04","mid":3.8773},
+    {"no":"024/A/NBP/2020","effectiveDate":"2020-02-05","mid":3.8654},
+    {"no":"025/A/NBP/2020","effectiveDate":"2020-02-06","mid":3.8672},
+    {"no":"026/A/NBP/2020","effectiveDate":"2020-02-07","mid":3.8947},
+    {"no":"027/A/NBP/2020","effectiveDate":"2020-02-10","mid":3.8996},{"no":"028/A/NBP/2020","effectiveDate":"2020-02-11","mid":3.9041},{"no":"029/A/NBP/2020","effectiveDate":"2020-02-12","mid":3.9010},{"no":"030/A/NBP/2020","effectiveDate":"2020-02-13","mid":3.9104},{"no":"031/A/NBP/2020","effectiveDate":"2020-02-14","mid":3.9098},{"no":"032/A/NBP/2020","effectiveDate":"2020-02-17","mid":3.9189},{"no":"033/A/NBP/2020","effectiveDate":"2020-02-18","mid":3.9448},{"no":"034/A/NBP/2020","effectiveDate":"2020-02-19","mid":3.9556},{"no":"035/A/NBP/2020","effectiveDate":"2020-02-20","mid":3.9621},{"no":"036/A/NBP/2020","effectiveDate":"2020-02-21","mid":3.9623},{"no":"037/A/NBP/2020","effectiveDate":"2020-02-24","mid":3.9772},{"no":"038/A/NBP/2020","effectiveDate":"2020-02-25","mid":3.9624},{"no":"039/A/NBP/2020","effectiveDate":"2020-02-26","mid":3.9573},{"no":"040/A/NBP/2020","effectiveDate":"2020-02-27","mid":3.9413},{"no":"041/A/NBP/2020","effectiveDate":"2020-02-28","mid":3.9255}]}
