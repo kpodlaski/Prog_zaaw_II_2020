@@ -44,6 +44,7 @@ def currency_statistics():
         print("Max month:", max_month, " max value:", max_value)
         print("================")
 
+## WYKRESY
 m = '03'
 c = 'eur'
 y = 2020
