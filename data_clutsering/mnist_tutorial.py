@@ -5,7 +5,7 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+#os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 mnist = tf.keras.datasets.mnist
