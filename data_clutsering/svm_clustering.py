@@ -27,9 +27,21 @@ def svm_test(X_train, Y_train, X_test, Y_test):
     print("Fitted to data")
     Y_pred = model.predict(X_test)
     score = 0
+    false_positive = 0
+    false_negative = 0
+    negative = 0
     for i in range(len(Y)):
-        if Y_test[i] == Y_pred[i]: score += 1
+        if Y_test[i] == Y_pred[i]:
+            score += 1
+        if Y_pred[i] == 1 and Y_test[i]==0:
+                false_positive +=1
+        if Y_pred[i] == 0 and Y_test[i]==1:
+                false_negative +=1
+        if Y_pred[i] == 0:
+            negative +=1
     print('score', score / len(Y_test))
+    print('FP score', false_positive / negative)
+    print('FN score', false_negative / (len(Y_test)-negative))
 
 dataset = pd.read_csv("../Titanic_train.csv")
 
