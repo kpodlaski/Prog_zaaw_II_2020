@@ -16,13 +16,13 @@ max_epoch = 50
 x_train, x_test = x_train / 255.0, x_test / 255.0
 
 model = tf.keras.models.Sequential([
-  tf.keras.layers.Conv2D(20,(5,5), input_shape=(28, 28,1)),
-  tf.keras.layers.MaxPool2D((2,2)),
-  tf.keras.layers.Conv2D(50,(4,4)),
-  tf.keras.layers.MaxPool2D((2,2)),
+  tf.keras.layers.Conv2D(20,(3,3), input_shape=(28, 28,1)),
+  tf.keras.layers.MaxPool2D((3,3)),
+  tf.keras.layers.Conv2D(50,(3,3), activation='tanh'),
+  tf.keras.layers.MaxPool2D((3,3)),
   tf.keras.layers.Flatten(),
-  tf.keras.layers.Dense(32, activation='tanh'),
   tf.keras.layers.Dropout(0.2),
+  tf.keras.layers.Dense(32, activation='tanh'),
   tf.keras.layers.Dense(10, activation='softmax')
 ])
 
